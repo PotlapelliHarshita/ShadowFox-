@@ -1,0 +1,135 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNDo2+64hWCCtA5BY9KlPUw",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/PotlapelliHarshita/ShadowFox-/blob/main/Numbers\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def format_values(num, char):\n",
+        "    formatted = format(num, char)\n",
+        "    return formatted\n",
+        "result = format_values(145, 'o')\n",
+        "print(\"Formatted result:\", result)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "L_yHxQq8VuxR",
+        "outputId": "a30e6945-f85b-40bf-e5f8-7539e18d3f04"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Formatted result: 221\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "radius = 84\n",
+        "pi = 3.14\n",
+        "area = pi * radius * radius\n",
+        "print(\"Area of the pond:\", area)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QUP_54_KVxH5",
+        "outputId": "f58e5ebe-95b3-4b6c-c8e3-defbb4f505b6"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Area of the pond: 22155.84\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "water_per_sqm = 1.4\n",
+        "total_water = area * water_per_sqm\n",
+        "print(\"Total water in the pond:\", int(total_water))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0LGg8CiHV049",
+        "outputId": "3ade962c-0eed-4649-cf08-3b5dc2f240c5"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total water in the pond: 31018\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "distance_meters = 490\n",
+        "time_minutes = 7\n",
+        "time_seconds = time_minutes * 60\n",
+        "speed_mps = distance_meters / time_seconds\n",
+        "print(\"Speed:\", int(speed_mps))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "T9eQadQlWAHn",
+        "outputId": "b0e5ae62-b84c-4f7e-992b-52513d7c0979"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Speed: 1\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
